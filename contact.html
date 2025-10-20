@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ru" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Свяжитесь с санаторием Zangiota Zam-Zam: телефоны, адрес, форма обратной связи и карта проезда." />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#005aa7" />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:title" content="Контакты • Zangiota Zam-Zam" />
+    <meta property="og:description" content="Телефоны, адрес и форма обратной связи санатория Zangiota Zam-Zam." />
+    <meta property="og:image" content="images/hero-bg.jpg" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <title>Контакты • Zangiota Zam-Zam</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page-contact">
+    <a class="skip-link visually-hidden" href="#main">Пропустить к содержанию</a>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="На главную">
+          <picture>
+            <source srcset="images/logo.webp" type="image/webp" />
+            <img src="images/logo.webp" alt="Zangiota Zam-Zam" height="140" loading="eager" />
+          </picture>
+        </a>
+
+        <nav class="main-nav" id="nav" aria-label="Главное меню">
+          <ul>
+            <li><a href="index.html#reviews">Отзывы</a></li>
+            <li><a href="pricing.html">Прайс лист</a></li>
+            <li><a href="contact.html" class="active" aria-current="page">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <button class="nav-toggle" id="navToggle" aria-controls="nav" aria-expanded="false" aria-label="Открыть меню навигации">☰</button>
+      </div>
+    </header>
+
+    <main id="main" role="main">
+      <section class="page-hero page-hero--contact" aria-labelledby="contact-hero-title">
+        <div class="container hero-inner">
+          <p class="eyebrow">Всегда на связи</p>
+          <h1 id="contact-hero-title">Свяжитесь с Zangiota Zam-Zam</h1>
+          <p class="lead">
+            Позвоните, напишите или приезжайте лично — мы ответим на все вопросы о размещении, программах лечения и бронировании путёвок.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-highlights" aria-label="Основные контакты">
+        <div class="container">
+          <ul class="contact-highlights__list">
+            <li class="contact-card" aria-label="Телефоны">
+              <span class="card-icon" aria-hidden="true">☎</span>
+              <h2>Телефоны</h2>
+              <p>
+                <a href="tel:+998983074010">+998&nbsp;98&nbsp;307&nbsp;40&nbsp;10</a><br />
+                <a href="tel:+998909829871">+998&nbsp;90&nbsp;982&nbsp;98&nbsp;71</a>
+              </p>
+              <span class="card-note">Ответим с 08:00 до 22:00</span>
+            </li>
+            <li class="contact-card" aria-label="Визит в санаторий">
+              <span class="card-icon" aria-hidden="true">📍</span>
+              <h2>Адрес</h2>
+              <p>Ташкентская обл., Зангиатинский р-н, пгт Уртааул, ул. Навои, 70</p>
+              <span class="card-note">Пропуск оформляем заранее</span>
+            </li>
+            <li class="contact-card" aria-label="Электронная почта">
+              <span class="card-icon" aria-hidden="true">✉</span>
+              <h2>Электронная почта</h2>
+              <p><a href="mailto:info@zam-zam.uz">info@zam-zam.uz</a></p>
+              <span class="card-note">Ответим в течение рабочего дня</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact page-contact__form" aria-labelledby="contact-form-title">
+        <div class="container grid-2">
+          <form action="#" class="contact-form contact-form--card fade-in" method="post" novalidate>
+            <h2 id="contact-form-title">Напишите нам</h2>
+
+            <div class="form-field">
+              <label class="visually-hidden" for="contact-name">Ваше имя</label>
+              <input id="contact-name" name="name" type="text" placeholder="Ваше имя" autocomplete="name" required />
+            </div>
+
+            <div class="form-field">
+              <label class="visually-hidden" for="contact-phone">Телефон</label>
+              <input id="contact-phone" name="phone" type="tel" placeholder="Телефон" inputmode="tel" pattern="\+?[0-9\s()-]{7,}" autocomplete="tel" required />
+            </div>
+
+            <div class="form-field">
+              <label class="visually-hidden" for="contact-email">Email</label>
+              <input id="contact-email" name="email" type="email" placeholder="Email" autocomplete="email" required />
+            </div>
+
+            <div class="form-field">
+              <label class="visually-hidden" for="contact-message">Сообщение</label>
+              <textarea id="contact-message" name="message" placeholder="Сообщение" rows="5" required></textarea>
+            </div>
+
+            <div class="visually-hidden" aria-hidden="true">
+              <label for="contact-company">Company</label>
+              <input id="contact-company" name="company" type="text" tabindex="-1" autocomplete="off" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Отправить заявку</button>
+          </form>
+
+          <div class="contact-info fade-in">
+            <ul class="contact-info__list" role="list">
+              <li class="contact-info__card" aria-label="Как добраться">
+                <span class="contact-info__icon" aria-hidden="true">🚍</span>
+                <h3>Как добраться</h3>
+                <p class="contact-info__content">
+                  <strong>Общественный транспорт:</strong><br />
+                  от метро Чиланзар — маршрутка №464<br />
+                  от Чор-су — автобус №84<br />
+                  от Куйлюк — автобус №145
+                </p>
+                <span class="contact-info__note">Маршруты: №464, №84, №145</span>
+              </li>
+              <li class="contact-info__card" aria-label="Часы работы ресепшн">
+                <span class="contact-info__icon" aria-hidden="true">🕒</span>
+                <h3>Часы работы ресепшн</h3>
+                <p class="contact-info__content">Ежедневно с 08:00 до 22:00</p>
+                <span class="contact-info__note">Работаем без выходных</span>
+              </li>
+            </ul>
+
+            <div class="map">
+              <iframe
+                title="Карта — Zangiota Zam-Zam"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d764.4086447949134!2d69.15596986703353!3d41.179683604930894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae639afc7d96e9%3A0x69b8190cb7744de0!2sZangiota%20Zam-Zam%20MCHJ!5e1!3m2!1sen!2sde!4v1749526645337!5m2!1sen!2sde"
+                width="600"
+                height="450"
+                style="border:0"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="floating-contact" aria-label="Быстрые контакты">
+      <a
+        href="https://api.whatsapp.com/send?phone=998909829871"
+        class="btn-icon whatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Написать в WhatsApp"
+      ></a>
+
+      <a
+        href="tg://resolve?domain=zafarzamzam"
+        class="btn-icon telegram"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Написать в Telegram"
+      ></a>
+    </div>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p>Copyright © 2013 - 2025 Zangiota “Zam Zam”</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
